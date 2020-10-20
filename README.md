@@ -5,11 +5,11 @@ Home: https://gitlab.cern.ch/lhcb-core/tasks/LbCondaWrappers
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lbcondawrappers-feedstock/blob/master/LICENSE.txt)
 
 Summary: Wrappers for using LHCb CVMFS conda installations
 
-
+Development: https://gitlab.cern.ch/lhcb-core/LbCondaWrappers
 
 Current build status
 ====================
