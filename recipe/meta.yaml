@@ -1,5 +1,5 @@
 {% set name = "lbcondawrappers" %}
-{% set version = "0.0.6" %}
+{% set version = "0.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/LbCondaWrappers-{{ version }}.tar.gz
-  sha256: fd79c02242d16173e2a56370b26fad893503b29a4cdc1f8e4b60f59c63e4a2c8
+  sha256: 07e7820dcd704161d45351f6a9e83967e493dc71c3680e1204af67d1166daa36
 
 build:
   number: 0
