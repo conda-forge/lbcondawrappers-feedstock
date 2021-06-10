@@ -31,8 +31,8 @@ test:
     - LbCondaWrappers
   commands:
     - pip check
-    - lb-conda --help
-    - lb-conda-dev --help
+    # - lb-conda --help
+    # - lb-conda-dev --help
   requires:
     - pip
 
