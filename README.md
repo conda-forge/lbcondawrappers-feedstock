@@ -1,9 +1,9 @@
 About lbcondawrappers
 =====================
 
-Home: https://gitlab.cern.ch/lhcb-core/tasks/LbCondaWrappers
+Home: https://gitlab.cern.ch/lhcb-core/LbCondaWrappers
 
-Package license: GPL-3.0-or-later
+Package license: GPL-3.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lbcondawrappers-feedstock/blob/master/LICENSE.txt)
 
@@ -117,6 +117,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bcouturi](https://github.com/bcouturi/)
 * [@chrisburr](https://github.com/chrisburr/)
 
