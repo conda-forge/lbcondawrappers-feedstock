@@ -1,5 +1,5 @@
 {% set name = "lbcondawrappers" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/LbCondaWrappers-{{ version }}.tar.gz
-  sha256: 9b467ac89e126a5d910639e876f566283c07af73baf136ba4e04aa8f4d1aa8b5
+  sha256: d0ca3ce78bea55fba7b221e4e61a0793d4ccd42c8137542220a0e283fd7aa695
 
 build:
   number: 0
@@ -37,7 +37,7 @@ test:
     - pip
 
 about:
-  home: https://gitlab.cern.ch/lhcb-core/tasks/LbCondaWrappers
+  home: https://gitlab.cern.ch/lhcb-core/LbCondaWrappers
   summary: Wrappers for using LHCb CVMFS conda installations
   dev_url: https://gitlab.cern.ch/lhcb-core/LbCondaWrappers
   license: GPL-3.0-or-later
