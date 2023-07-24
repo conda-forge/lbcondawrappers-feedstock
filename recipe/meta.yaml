@@ -1,6 +1,5 @@
 {% set name = "lbcondawrappers" %}
-{% set version = "0.3.1" %}
-
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,23 +7,24 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/LbCondaWrappers-{{ version }}.tar.gz
-  sha256: 878185fb624675f6165a930d54e1b2ae5e9658ffd7540103aedcc644a2980ffd
+  sha256: 92355951c6bdc7240aaa5af14c2668b73b69481b5db1b34e0e969513eaea68ad
 
 build:
-  number: 0
-  noarch: python
   entry_points:
     - lb-conda=LbCondaWrappers:lb_conda
     - lb-conda-dev=LbCondaWrappers:lb_conda_dev
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
-    - pip
     - python >=3.6
-    - setuptools_scm
+    - setuptools-scm
+    - pip
   run:
     - python >=3.6
+    - lb-telemetry
 
 test:
   imports:
