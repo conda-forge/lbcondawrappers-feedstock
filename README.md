@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lbcondawrappers
 
 Home: https://gitlab.cern.ch/lhcb-core/LbCondaWrappers
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Summary: Wrappers for using LHCb CVMFS conda installations
 
@@ -145,5 +145,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bcouturi](https://github.com/bcouturi/)
 * [@chrisburr](https://github.com/chrisburr/)
 
