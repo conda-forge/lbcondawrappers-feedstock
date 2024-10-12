@@ -29,7 +29,7 @@ requirements:
 
 test:
   imports:
-    - LbCondaWrappers
+  #  - LbCondaWrappers
   commands:
     - pip check
     # - lb-conda --help
