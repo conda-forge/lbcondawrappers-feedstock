@@ -1,13 +1,13 @@
 {% set name = "lbcondawrappers" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 12eb2aa5c7b7444ff17e66ccad17d2e282fdf3a98a97f9abb6f45a3ff1f334b7
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 7ba6f1e351cb5efdb1dc2d3637efa4186b9a6d57e459add4e3a2e8907aace019
 
 build:
   entry_points:
