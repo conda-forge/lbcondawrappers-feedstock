@@ -1,5 +1,5 @@
 {% set name = "lbcondawrappers" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 285060e890312eec0248ecc1b45f52e91dcf0b596ead8226e916028d56493c8b
+  sha256: f6c69a1e2ba7d1c373992d1792742bb12994ba5cf38476a261e303fce0f58eee
 
 build:
   entry_points:
@@ -15,7 +15,7 @@ build:
     - lb-conda-dev = LbCondaWrappers:lb_conda_dev
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
